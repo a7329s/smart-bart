@@ -1,0 +1,283 @@
+
+/*
+{
+  nearby: {
+      isFetching: true,
+      hasETD: false,
+      id:1,
+      stn:'12th',
+      etd:{}
+    }
+}
+*/
+{
+
+}
+/*
+{
+  nearby: [
+    {
+      isFetching: false,
+      id: 1,
+      stn: 'CAST',
+      hasETD: true,
+      etd: {
+        '?xml': {
+          '@version': '1.0',
+          '@encoding': 'utf-8'
+        },
+        root: {
+          '@id': '1',
+          uri: {
+            '#cdata-section': 'http://api.bart.gov/api/etd.aspx?cmd=etd&orig=CAST&JSON=Y'
+          },
+          date: '04/18/2017',
+          time: '11:53:16 AM PDT',
+          station: [
+            {
+              name: 'Castro Valley',
+              abbr: 'CAST',
+              etd: [
+                {
+                  destination: 'Daly City',
+                  abbreviation: 'DALY',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: '5',
+                      platform: '2',
+                      direction: 'South',
+                      length: '4',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '18',
+                      platform: '2',
+                      direction: 'South',
+                      length: '4',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '33',
+                      platform: '2',
+                      direction: 'South',
+                      length: '4',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    }
+                  ]
+                },
+                {
+                  destination: 'Dublin/Pleasanton',
+                  abbreviation: 'DUBL',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: '4',
+                      platform: '1',
+                      direction: 'North',
+                      length: '4',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '18',
+                      platform: '1',
+                      direction: 'North',
+                      length: '8',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '33',
+                      platform: '1',
+                      direction: 'North',
+                      length: '4',
+                      color: 'BLUE',
+                      hexcolor: '#0099cc',
+                      bikeflag: '1'
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          message: ''
+        }
+      }
+    },
+    {
+      isFetching: false,
+      id: 2,
+      stn: 'HAYW',
+      hasETD: true,
+      etd: {
+        '?xml': {
+          '@version': '1.0',
+          '@encoding': 'utf-8'
+        },
+        root: {
+          '@id': '1',
+          uri: {
+            '#cdata-section': 'http://api.bart.gov/api/etd.aspx?cmd=etd&orig=HAYW&JSON=Y'
+          },
+          date: '04/18/2017',
+          time: '11:53:16 AM PDT',
+          station: [
+            {
+              name: 'Hayward',
+              abbr: 'HAYW',
+              etd: [
+                {
+                  destination: 'Daly City',
+                  abbreviation: 'DALY',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: '12',
+                      platform: '2',
+                      direction: 'North',
+                      length: '10',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '27',
+                      platform: '2',
+                      direction: 'North',
+                      length: '8',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '42',
+                      platform: '2',
+                      direction: 'North',
+                      length: '10',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    }
+                  ]
+                },
+                {
+                  destination: 'Fremont',
+                  abbreviation: 'FRMT',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: 'Leaving',
+                      platform: '1',
+                      direction: 'South',
+                      length: '4',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '15',
+                      platform: '1',
+                      direction: 'South',
+                      length: '4',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '30',
+                      platform: '1',
+                      direction: 'South',
+                      length: '4',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    }
+                  ]
+                },
+                {
+                  destination: 'Richmond',
+                  abbreviation: 'RICH',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: '7',
+                      platform: '2',
+                      direction: 'North',
+                      length: '5',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '22',
+                      platform: '2',
+                      direction: 'North',
+                      length: '4',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '37',
+                      platform: '2',
+                      direction: 'North',
+                      length: '4',
+                      color: 'ORANGE',
+                      hexcolor: '#ff9933',
+                      bikeflag: '1'
+                    }
+                  ]
+                },
+                {
+                  destination: 'Warm Springs',
+                  abbreviation: 'WARM',
+                  limited: '0',
+                  estimate: [
+                    {
+                      minutes: '8',
+                      platform: '1',
+                      direction: 'South',
+                      length: '10',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '22',
+                      platform: '1',
+                      direction: 'South',
+                      length: '10',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    },
+                    {
+                      minutes: '37',
+                      platform: '1',
+                      direction: 'South',
+                      length: '9',
+                      color: 'GREEN',
+                      hexcolor: '#339933',
+                      bikeflag: '1'
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          message: ''
+        }
+      }
+    }
+  ]
+}
+*/
